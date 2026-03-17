@@ -4,7 +4,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome'
 export default function Header(){
     return (
         <View style={styles.container}>
-            <FontAwesome style={styles.logo} name="users" size={26} color="#e7612b" />
+            <FontAwesome style={styles.logo} name="users" size={26} color="#FFF" />
             <Text style={styles.logotipo}>Logo</Text>
         </View>
     )
